@@ -15,10 +15,10 @@ using System.Threading.Tasks;
 
 var task2File = File.ReadAllLines("task2.txt");
 
-var task2A = new Task2A();
-var result2A = task2A.Run(task2File);
-Console.WriteLine(result2A);
+//var task2A = new Task2A();
+//var result2A = task2A.Run(task2File);
+//Console.WriteLine(result2A);
 
-//var task2B = new Task2B();
-//var result2B = task2B.Run(task2File);
-//Console.WriteLine(result2B);
+var task2B = new Task2B();
+var result2B = task2B.Run(task2File);
+Console.WriteLine(result2B);
