@@ -2,9 +2,9 @@
 
 namespace AdventOfCode.Cmd.Task1
 {
-    public class Task1A
+    public class Task1A : IAdventTask
     {
-        public int Run(IEnumerable<string> data)
+        public long Run(IEnumerable<string> data)
         {
             var movements = data
                 .Where(l => !string.IsNullOrWhiteSpace(l))
