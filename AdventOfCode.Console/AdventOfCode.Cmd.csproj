@@ -20,4 +20,10 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="task3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

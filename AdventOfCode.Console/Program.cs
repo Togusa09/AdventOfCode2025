@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AdventOfCode.Cmd.Task1;
 using AdventOfCode.Cmd.Task2;
+using AdventOfCode.Cmd.Task3;
 using System.Threading.Tasks;
 
 //var task1File = File.ReadAllLines("task1.txt");
@@ -13,12 +14,21 @@ using System.Threading.Tasks;
 //var result1B = task1B.Run(task1File);
 //Console.WriteLine(result1B);
 
-var task2File = File.ReadAllLines("task2.txt");
+//var task2File = File.ReadAllLines("task2.txt");
 
 //var task2A = new Task2A();
 //var result2A = task2A.Run(task2File);
 //Console.WriteLine(result2A);
 
-var task2B = new Task2B();
-var result2B = task2B.Run(task2File);
-Console.WriteLine(result2B);
+//var task2B = new Task2B();
+//var result2B = task2B.Run(task2File);
+//Console.WriteLine(result2B);
+
+var task3File = File.ReadAllLines("task3.txt");
+
+//var task3A = new Task3A();
+//var result3A = task3A.Run(task3File);
+//Console.WriteLine(result3A);
+var task3B = new Task3B();
+var result3B = task3B.Run(task3File);
+Console.WriteLine(result3B);
